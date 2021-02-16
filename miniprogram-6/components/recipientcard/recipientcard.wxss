@@ -1,0 +1,80 @@
+.big-box{
+  margin-top: 15rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  padding-right: 20rpx;
+  padding-left: 20rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  background-color: rgb(138, 160, 141);
+  border-radius: 25rpx;
+}
+.placeholder{
+  color: rgb(202, 216, 196);
+}
+.row-substitute{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.recipient-name {
+  font-size: 35rpx;
+  flex: 10 0 0;
+  align-self: center;
+  margin-right: 10rpx;
+  color: rgb(55, 65, 62);
+}
+.recipient-grade {
+  font-size: 35rpx;
+  flex:0.5 0 0;
+  align-self: center;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  color: rgb(55, 65, 62);
+}
+.recipient-class {
+  font-size: 35rpx;
+  flex:0.5 0 0;
+  align-self: center;
+  margin-left: 10rpx;
+  margin-right: 15rpx;
+  color: rgb(55, 65, 62);
+}
+.recipient-quantity {
+  font-size: 35rpx;
+  align-self: center;
+  flex:1.5 0 0;
+  margin-left: 20rpx;
+  margin-right: 5rpx;
+  color: rgb(55, 65, 62);
+}
+.recipient-delete-button {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  align-self: center;
+  text-align: center;
+  border-radius: 20rpx;
+  background-color: rgb(55, 65, 62);
+  font-size: 25rpx;
+  margin-left: 5rpx;
+}
+.small-text{
+  color: rgb(55, 65, 62);
+  font-size: 35rpx;
+}
+.small-box{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+  background-color: rgb(237, 195, 200);
+  align-self: center;
+  text-align: center;
+}
+.caution-text{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  font-size: 27rpx;
+  color: rgb(55, 65, 62);
+}

@@ -1,0 +1,5 @@
+<view class="box">
+    <text class="smallText">Name: {{recipName}}</text>
+    <text class="smallText">Class: {{recipGrade}} ({{recipClass}}) </text>
+    <text class="smallText">Quantity: {{quantity}}</text>
+</view>

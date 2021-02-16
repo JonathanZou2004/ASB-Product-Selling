@@ -1,0 +1,7 @@
+.title-text{
+  padding-top: 10rpx;
+  margin-left: 45rpx;
+  font-size: 60rpx;
+  color: rgb(138, 160, 141);
+  font-weight: 800;
+}

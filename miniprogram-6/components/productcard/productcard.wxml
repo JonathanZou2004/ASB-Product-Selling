@@ -1,0 +1,11 @@
+<view class="wrapper">
+  <text class="smallText">{{name}}</text>
+  <text wx:if="{{itemnum==3}}" class="smallText">(includes letter,keychain, and candle)</text>
+  <text wx:if="{{itemnum==0}}" class="smallText">you can add your own labels!</text>
+  <text wx:if="{{itemnum==5}}" class="smallText">Print your own pictures on socks!</text>
+  <image src='{{imgurl}}' class="itemImage"/>
+  <text class="smallText"> Price: {{price}}</text>
+  <view bindtap="addRecip" class="smallWrapper">
+    <text class="buttonText">+</text>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+<view class="title-text">Home page</view>
+<view class="side-text">*This place is just for you to pick your items and give you a total price, not where you actually pay :D</view>
+<view class="big-box">
+  <checkbox class="anonymousCheckbox" bindtap="onSenderAnonymous" checked="{{senderAnonymous}}">Anonymous</checkbox>
+  <text wx:if="{{senderAnonymous}}" class="caution-text"> * Hello anonymous dude * </text>
+
+  <view wx:if="{{!senderAnonymous}}" class="nameContainer">
+    <text class="smallText">Name: </text>
+    <input class="inputBox" id='inputBoxName' bindinput="bindNameInput" placeholder-class="placeholder" placeholder='Ethan Li'/>
+  </view>
+    
+  <view wx:if="{{!senderAnonymous}}" class="gradeClassContainer">
+    <picker bindchange="bindPickerGradeChange" value="{{indexGrade}}" range="{{arrayGrade}}">
+      <view class="smallPicker">
+        Grade: {{arrayGrade[indexGrade]}}
+      </view>
+    </picker>
+
+    <picker bindchange="bindPickerClassChange" value="{{indexClass}}" range="{{arrayClass}}">
+      <view class="smallPicker">
+        Class: {{arrayClass[indexClass]}}
+      </view>
+    </picker>
+  </view>
+</view>
+<view wx:for="{{product}}" wx:for-item="i">
+  <productcard name="{{i.name}}" imgurl="{{i.imgurl}}" price="{{i.price}}"  itemnum="{{i.itemNum}}" itemPrice="{{i.price}}" bind:addrecip="addRecip"/>
+  <view wx:for="{{recip}}" wx:for-item="recipient" wx:for-index="idx">
+    <recipientcard  wx:if="{{recipient.rItem==i.itemNum && recipient.deleted==false}}" bind:ondelete="onDeleteRecip" bind:nameinput="onRecipientNameInput" bind:gradechange="onRecipientGradeChange" bind:classchange="onRecipientClassChange" bind:inputquantity="onRecipientQuantityInput" bind:textchange="onTextChange" bind:importpic="onImportPic"
+       recipientName="{{recipient.rName}}" recipientGrade="{{recipient.rGrade}}" recipientClass="{{recipient.rClass}}" quantity="{{recipient.rQuantity}}" recipientNumber="{{idx}}" itemNum="{{i.itemNum}}"/>
+  </view>
+</view>
+<view bindtap="onSeeOrder" class="bigButton">
+  <text class="buttonText">see order</text>
+</view>

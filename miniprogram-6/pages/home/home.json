@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "productcard": "/components/productcard/productcard",
+    "recipientcard": "/components/recipientcard/recipientcard"
+  }
+}

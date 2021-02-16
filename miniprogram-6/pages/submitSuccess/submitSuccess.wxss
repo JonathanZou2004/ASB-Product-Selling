@@ -1,0 +1,12 @@
+.smallText{
+  padding-top: 10rpx;
+  margin-left: 45rpx;
+  font-size: 40rpx;
+  color: rgb(138, 160, 141);
+  font-weight: 800;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+}

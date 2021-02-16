@@ -1,0 +1,5 @@
+page {
+  background-color: rgb(247, 237, 230);
+  height: 100%;
+  line-height: 1.6; 
+}

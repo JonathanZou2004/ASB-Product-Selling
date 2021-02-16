@@ -1,0 +1,6 @@
+<view class="big-box">
+  <text class="smallText">{{name}}</text>
+  <view class="order" wx:for="{{reciplist}}" wx:for-item="i">
+    <showrecipcard recipName="{{i.rName}}" recipGrade="{{i.rGrade}}" recipClass="{{i.rClass}}" quantity="{{i.rQuantity}}"/>
+  </view>
+</view>

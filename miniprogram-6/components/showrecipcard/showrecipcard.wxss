@@ -1,0 +1,18 @@
+.box{
+  margin-top: 10rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  padding-right: 15rpx;
+  padding-left: 15rpx;
+  padding-top: 10rpx;
+  padding-bottom: 15rpx;
+  background-color: rgb(237, 195, 200);
+  border-radius: 20rpx;
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: column;
+}
+.smallText{
+  color: black;
+  font-size: 35rpx;
+}

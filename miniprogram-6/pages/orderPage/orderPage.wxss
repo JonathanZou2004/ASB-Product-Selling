@@ -1,0 +1,44 @@
+.title-text{
+  padding-top: 10rpx;
+  margin-left: 30rpx;
+  font-size: 60rpx;
+  color: black;
+  font-weight: 800;
+}
+.order{
+  display: flex;
+  flex-direction: column;
+}
+.smallText{
+  color: black;
+  padding-left: 18rpx;
+  margin-left: 20rpx;
+  font-size: 35rpx;
+}
+.totalText{
+  color: black;
+  padding-left: 18rpx;
+  margin-left: 20rpx;
+  font-size: 35rpx;
+  margin-top: 20rpx;
+}
+.bigButton{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: rgb(133, 38, 60);
+  text-align: center;
+}
+.buttonText {
+  padding-top: 10rpx;
+  margin-left: 20rpx;
+  font-size: 35rpx;
+  color: black;
+}
+.side-text{
+  margin: 30rpx;
+  color: black;
+  font-size: 25rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "showrecipcard": "/components/showrecipcard/showrecipcard"
+  }
+}

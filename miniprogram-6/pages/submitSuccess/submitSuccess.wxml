@@ -1,0 +1,5 @@
+<!--pages/submitSuccess/submitSuccess.wxml-->
+<view class="box">
+  <text class="smallText">Confirmed successfully!</text>
+  <text class="smallText">now go away!</text>
+</view>

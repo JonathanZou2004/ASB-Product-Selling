@@ -1,0 +1,2 @@
+<!--pages/serverFail/serverFail.wxml-->
+<text class="titleText">Please check you internet connection</text>

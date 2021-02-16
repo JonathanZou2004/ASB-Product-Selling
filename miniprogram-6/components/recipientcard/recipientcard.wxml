@@ -1,0 +1,25 @@
+<view class="big-box">
+  <view class="row-substitute">
+    <input bindinput="onNameInput" bindconfirm="onNameInput" confirm-type="done" type='text' class="recipient-name" placeholder='recipient name' placeholder-class="placeholder"/>
+    <picker class="recipient-grade" bindchange="onGradeChange" value="{{indexGrade}}" range="{{arrayGrade}}">
+      <view class="smallPicker">
+        {{arrayGrade[indexGrade]}} 
+      </view>
+    </picker>
+
+    <picker class="recipient-class" bindchange="onClassChange" value="{{indexClass}}" range="{{arrayClass}}">
+      <view class="smallPicker">
+        ({{arrayClass[indexClass]}})
+      </view>
+    </picker>
+
+    <input type='number' bindinput="onQuantityInput" class="recipient-quantity" placeholder='1' placeholder-class="placeholder"/>
+
+    <button class='recipient-delete-button' bindtap='onDelete'>-</button>
+  </view>
+  <input wx:if="{{itemNum==0 || itemNum==3}}" placeholder='customized text' placeholder-class="placeholder" class="recipient-name" bindinput="onCustomizedTextChange"/>
+  <view wx:if="{{itemNum==5}}" bindtap="onImportPic" class="small-box">
+    <text class="small-text">Choose pictures here</text>
+  </view>
+  <view  wx:if="{{itemNum==5}}" class="caution-text">*If you do not give a picture you'll just get normal socks</view>
+</view>

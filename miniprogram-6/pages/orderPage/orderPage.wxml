@@ -1,0 +1,14 @@
+<view class="title-text">Your order was:</view>
+<view wx:if="{{!sender.senderAnonymous}}" class="smallText">{{sender.senderGrade}} ({{sender.senderClass}})</view>
+<view class="smallText">{{sender.senderName}}</view>
+<view wx:for="{{product}}" wx:for-item="i" class="order">
+  <showproductcard name="{{i.name}}" imgurl="{{i.imgurl}}" price="{{i.price}}"  itemnum="{{i.itemNum}}" reciplist="{{i.recip}}"/>
+</view>
+<view class="totalText">Your total is: {{total}} moneys</view>
+<view class="side-text">*Again, you do not pay here. You confirm here and then pay us in person! :D</view>
+<view bindtap="onReturn" class="bigButton">
+  <text class="buttonText">Remake order</text>
+</view>
+<view bindtap="onConfirm"class="bigButton">
+  <text class="buttonText">Confirm order</text>
+</view>

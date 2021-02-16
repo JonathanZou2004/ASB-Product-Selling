@@ -1,0 +1,106 @@
+/* pages/home/home.wxss */
+.small-text{
+  color: black;
+  padding: 18rpx;
+  font-size: 35rpx;
+}
+.title-text{
+  padding-top: 10rpx;
+  margin-left: 45rpx;
+  font-size: 60rpx;
+  color: rgb(166, 127, 102);
+  font-weight: 800;
+}
+.placeholder{
+  color: rgb(202, 216, 196);
+}
+.subTitleText{
+  margin-top: 40rpx;
+  margin-left: 45rpx;
+  font-size: 50rpx;
+  color: black;
+}
+.big-box{
+  background-color: rgb(138, 160, 141);
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  align-items: stretch;
+}
+.activityBox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow{
+  height: 40rpx;
+  width: 40rpx;
+  padding: 15rpx;
+}
+.text_button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.picBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caution-text{
+  margin: 12rpx;
+  align-content: center;
+  font-size: 27rpx;
+  color: rgb(55, 65, 62);
+}
+.anonymousCheckbox{
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  color: rgb(55, 65, 62);
+  padding-left: 18rpx;
+}
+.nameContainer{
+  display: flex;
+  flex-direction: row;
+  color: rgb(55, 65, 62);
+  padding-left: 18rpx;
+  align-items: center;
+}
+.inputBox {
+  margin-left: 10rpx;
+  font-size: 35rpx;
+  color: rgb(55, 65, 62);
+  padding-left: 18rpx;
+}
+.gradeClassContainer{
+  display: flex;
+  flex-direction: column;
+  color: rgb(55, 65, 62);
+  padding-left: 18rpx;
+}
+.bigButton{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: rgb(133, 38, 60);
+  text-align: center;
+}
+.buttonText {
+  padding-top: 10rpx;
+  margin-left: 20rpx;
+  font-size: 35rpx;
+  color: black;
+}
+.side-text{
+  margin: 30rpx;
+  color: rgb(166, 127, 102);
+  font-size: 25rpx;
+}

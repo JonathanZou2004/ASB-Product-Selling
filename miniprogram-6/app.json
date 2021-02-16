@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/orderPage/orderPage",
+    "pages/serverFail/serverFail",
+    "pages/submitSuccess/submitSuccess"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#111210",
+    "navigationBarTitleText": "Christmas Comeback",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "cloud": true
+}
